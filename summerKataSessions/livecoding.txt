@@ -1,0 +1,734 @@
+# 1. Objectif
+
+Il n’y a pas de secret, le seul moyen de s’améliorer aux entretiens de recrutement tech est la pratique.
+
+L’objectif de cette page est de proposer un guide qui s’inscrit dans le parcours professionnalisant pour vous **empower en vous donnant les outils pour pratiquer et s’améliorer à l’exercice de live coding des entretiens tech.**
+
+Nous souhaitons commencer par vous donner un outil: des Simulations de Live Coding en Binôme.
+
+- Il s’agit d’un jeu de rôle où vous allez jouer le rôle d’interviewer et de candidat·e.
+- Le jeu de rôle peut être encadré par un·e encadrant·e permettant d’assurer l’assimilation des bonnes pratiques et il est possible aussi de le faire en autonomie.
+
+**Les objectifs pédagogiques de ce format sont:**
+
+- Préparer aux entretiens tech
+    - Démystifier l’exercice de live coding
+    - Se rendre compte du point de vue de l’interviewer en se mettant à leur place
+    - Proposer des exercices proches de la réalité
+    - Permettre à tout le monde d’avoir au moins une expérience de live coding
+- Empower les apprenants·es dans le parcours de professionnalisation
+    - Donner un outil pour continuer à s’exercer en autonomie
+    - Se rendre compte des comportements à faire ou éviter pendant l’entretien en prenant un point de vue différent de celui du·de la candidat·e
+    - Proposer un cadre grâce à l’accompagnement des encadrants·es pour une première session
+
+# 2. Proposition de déroulé
+
+- Prise en main des contenus et organisation du lancement des jeux de rôle - 15 min
+- Déroulé jeu de rôle - 1h30
+    - A tour de rôle prendre le rôle de interviewer ou candidat·e
+    - Temps suggéré: 30 min chacun + 15 min de débrief (donc durée totale de 2*45 min)
+- Clôture / wrap up - 15 min
+    - Retours sur ressentis sur l’exercice
+
+Durée totale: 2h
+
+# 3. Les rôles
+
+## 3.1. Les règles du rôle du·de la recruteur·euse
+
+- Quel est le rôle?
+    - Se mettre à la place de quelqu’un qui recrute un·e alternant·e pour travailler dans son projet
+    - Accompagner le·la candidat·e à exprimer tout son potentiel pendant l’entretien
+    - Proposer une discussion et pas un interrogatoire
+    - A la fin, donner des conseils et retours actionnables pour faire avancer le·la candidat·e
+- Quelle posture adopter?
+    - Ecoute
+    - Bienveillance
+    - Prendre l’exercice au sérieux pour avoir une meilleure préparation
+    - Vous inspirer de ce que vous avez retrouvé comme posture en Simulation d’entretien
+- Comment poser des questions pour aider dans la progression de l’exercice?
+    - Accompagner dans la reformulation
+    - Pousser à une réflexion à voix haute
+    - Pousser à une proposition d’une première solution même si pas optimale
+    - Itération à partir de la première proposition
+- Comment donner des retours?
+    - Factuels et basés sur des exemples
+    - Des retours positifs et des points d’amélioration
+    - Partager le ressenti en tant qu’intervieweur
+
+## 3.2. Les règles du rôle du candidat
+
+- Quel est le rôle?
+    - Se mettre à la place de quelqu’un qui cherche une alternance
+    - Montrer ses compétences et réflexion pour résoudre un problème technique
+    - Etre force de proposition pour faire une discussion
+    - A la fin, être à l’écoute des conseils et retours actionnables
+- Quelle posture adopter?
+    - Prise d’initiative
+    - Partage de réflexions
+    - Communiquer avec l’intervieweur·euse
+- Comment faire progresser de l’exercice?
+    - Reformulation
+    - Réflexion à voix haute
+    - Proposition d’une première solution même si pas optimale
+    - Itération à partir de la première proposition
+
+# 4. Banque d’exercices
+
+Dans cette partie vous allez trouver des exercices type d’entretiens classés par thématique.
+
+Nous allons enrichir progressivement cette banque grâce à vos contributions.
+
+- Concepts et algorithmes
+
+    - **Exercice 1 - Tri (Exercices Individuels, français)**
+        - Enoncé -  Pourquoi est ce qu’on parle de tri ? Ici on ne vous parle pas de trier vos déchets (même si c’est important aussi !), on vous parle de trier des données car c’est un véritable outil pour gagner en efficacité dans l’exécution de votre code. En effet, parcourir des données ordonnées, sans doublons peut vous éviter un bon nombre de tours de boucles !
+        L’objectif de cet exercice individuel est de vous faire découvrir le monde du tri algorithmique ♻️ !
+        Il existe énormément de façons de trier des données, que ce soit des chiffres, des caractères ou d’autres types.
+        Pour tester vos tris, voici 4 suites de données :
+            - Cas A : Petites données random
+                
+                `[8, -2, 2, 1, 0, 9, 6]`
+                
+            - Cas B : Petites données ordonnées
+                
+                `[8, -2, 0, 1, 2, 6, 9]`
+                
+            - Cas C : Grandes données random
+                
+                `[429,74,311,420,212,102,293,487,10,410,395,308,347,130,407,120,122,378,251,458,278,388,326,65,163,231,299,432,48,364,286,181,456,126,271,75,249,78,25,196,81,304,373,7,147,284,216,116,110,164,19,54,70,5,4,259,267,117,489,90,390,442,439,414,151,68,194,156,455,255,18,385,123,157,56,37,419,368,27,468,58,387,335,350,462,15,67,258,322,62,412,29,401,319,158,246,449,128,55,170,314,93,265,300,185,173,343,225,433,411,182,297,204,79,105,352,313,189,478,312,399,497,193,101,203,176,83,192,285,413,274,302,190,188,318,345,49,179,217,139,209,8,333,107,20,66,207,195,281,288,23,261,167,440,341,35,150,415,169,162,206,287,337,400,328,375,144,406,363,237,485,236,262,316,100,392,340,103,447,127,366,423,202,53,381,129,277,353,60,435,135,124,148,438,256,146,47,26,240,226,220,242,197,132,111,403,424,199,16,243,493,428,372,235,40,77,89,405,72,114,149,365,113,228,280,386,362,471,168,434,268,477,396,219,248,417,97,264,131,377,376,92,422,466,479,346,213,11,494,245,140,342,221,119,481,354,143,28,59,63,32,153,499,254,34,361,301,210,445,165,137,13,486,200,244,233,416,315,279,339,208,215,446,463,76,426,252,296,380,184,298,371,142,332,283,329,232,80,152,44,273,310,46,389,223,382,334,484,496,57,134,125,229,172,250,14,266,118,171,96,99,39,22,290,6,159,480,136,393,87,160,52,84,437,218,421,323,12,230,238,257,359,331,263,294,276,465,383,305,370,166,483,178,198,384,82,430,50,38,357,145,108,95,21,309,397,247,470,459,295,24,444,306,452,404,448,86,402,472,253,454,282,492,441,474,205,418,73,41,2,348,358,476,241,469,317,71,227,106,260,211,398,69,338,330,460,457,133,222,191,355,3,495,36,269,270,473,94,461,425,161,498,30,183,239,303,1,31,138,224,121,272,174,344,45,51,9,475,325,491,327,17,488,324,289,88,104,64,367,43,321,356,349,467,379,369,234,443,187,436,112,307,482,490,175,109,275,154,453,91,98,464,180,451,320,186,360,141,450,351,431,409,291,394,155,336,500,177,374,85,214,391,115,42,427,33,61,292,201,408]`
+                
+            - Cas D : Grandes données ordonnées
+            1. Écrivez l’algorithme de tri à bulle en pseudo code sur un editeur de code, de texte ou même une feuille de papier 😉.
+            2. Continuons avec un autre des plus connu, le quick sort. Développez l’algorithme, ici aussi en pseudo code.
+            3. Calculez combien d’étapes sont nécessaires pour faire le tri avec chacun ces deux algos ? Trouvez d’autres critères pour comparer les 2 algos.
+            4. Quel est le tri le plus efficace pour les données A, B, C et D ?
+        - Solution -
+        https://www.programiz.com/dsa/bubble-sort
+        https://www.programiz.com/dsa/quick-sort
+        
+
+- Récursivité
+    - **Exercice 1 - Triple step (Cracking the code interview, anglais)**
+        - Enoncé - A child is running up a staircase with n steps and can hop either 1 step, 2 steps, or 3 steps at a time. Implement a method to count how many possible ways the child can run up the stairs.
+        - Solution - Let's think about this with the following question: What is the very last step that is done?
+        The very last hop the child makes-the one that lands her on the nth step-was either a 3-step hop, a 2-step hop, or a 1-step hop.
+        How many ways then are there to get up to the nth step? We don't know yet, but we can relate it to some subproblems.
+        If we thought about all of the paths to the nth step, we could just build them off the paths to the three previous steps. We can get up to the nth step by any of the following:
+            - Going to the (n - l)st step and hopping 1 step.
+            - Going to the (n - 2)nd step and hopping 2 steps.
+            - Going to the (n - 3)rd step and hopping 3 steps.
+            
+            Therefore, we just need to add the number of these paths together.
+            Be very careful here. A lot of people want to multiply them. Multiplying one path with another would signify taking one path and then taking the other. That's not what's happening here.
+            
+            **Brute Force Solution**
+            
+            This is a fairly straightforward algorithm to implement recursively. We just need to follow logic like this:
+            
+            `countWays(n-1) + countWays(n-2) + countWays(n-3)`
+            
+            The one tricky bit is defining the base case. If we have 0 steps to go (we're currently standing on the step), are there zero paths to that step or one path?
+            That is, what is `countWays(0)`? Is it 1 or 0?
+            You could define it either way. There is no"right" answer here.
+            
+            However, it's a lot easier to define it as 1. If you defined it as 0, then you would need some additional base cases (or else you'd just wind up with a series of 0s getting added).
+            
+            A simple implementation of this code is below.
+            
+            ```java
+            int countWays(int n) {
+            	if (n < 0) {
+            		return 0;
+            	} else if (n 0) {
+            		return 1;
+            	} else {
+            		return countWays(n-1) + countWays(n-2)+ countWays(n-3);
+            	}
+            }
+            ```
+            
+            Like the Fibonacci problem, the runtime of this algorithm is exponential (roughly O ( 3") ), since each call branches out to three more calls.
+            
+            **Memoization Solution**
+            
+            ****The previous solution for `countWays` is called many times for the same values, which is unnecessary. We can fix this through memoization.
+            
+            Essentially, if we've seen this value of n before, return the cached value. Each time we compute a fresh value, add it to the cache.
+            
+            Typically we use a `HashMap<Integer`, `Integer>` for a cache. In this case, the keys will be exactly 1 through n. It's more compact to use an integer array.
+            
+            ```java
+            
+            int countWays(int n) {
+            	int[] memo = new int[n+ 1];
+            	Arrays.fill(memo, -1);
+            	return countWays(n, memo);
+            }
+            
+            int countWays(int n, int[] memo) {
+            	if (n < 0) {
+            		return 0;
+            	} else if (n == 0) {
+            		return 1;
+            	} else if (memo[n] > -1) {
+            		return memo[n];
+            	} else {
+            		memo[n] = countWays(n - 1, memo)+ countWays(n - 2, memo)+
+            		countWays(n - 3, memo);
+            		return memo[n];
+            	}
+            }
+            ```
+            
+            Regardless of whether or not you use memoization, note that the number of ways will quickly overflow the bounds of an integer. By the time you get to just n=37, the result has already overflowed. Using a long will delay, but not completely solve, this issue.
+            
+            It is great to communicate this issue to your interviewer. He probably won't ask you to work around it (although you could, with a Biginteger class). but it's nice to demonstrate that you think about these issues.
+            
+    - **Exercice 2 - Magic Index (Cracking the code interview, anglais)**
+        - Enoncé - A magic index in an array A[ 1.•.n-1] is defined to be an index such that A[ i] = i. Given a sorted array of distinct integers, write a method to find a magic index, if one exists, in array A.
+        - Solution - Immediately, the brute force solution should jump to mind-and there's no shame in mentioning it. We simply iterate through the array, looking for an element which matches this condition.
+            
+            ```java
+            int magicSlow(int[] array) {
+            	for (int i= 0; i < array.length; i++) {
+            		if (array[i] == i) {
+            			return i;
+            		}
+            	}
+            	return -1;
+            }
+            ```
+            
+            Given that the array is sorted, though, it's very likely that we're supposed to use this condition.
+            
+            We may recognize that this problem sounds a lot like the classic binary search problem. Leveraging the Pattern Matching approach for generating algorithms, how might we apply binary search here?
+            
+            In binary search, we find an element k by comparing it to the middle element, x, and determining if k would land on the left or the right side of x.
+            
+            Building off this approach, is there a way that we can look at the middle element to determine where a magic index might be? Let's look at a sample array:
+            
+            ![Screenshot 2022-11-17 at 07.43.22.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4812e1fe-575f-4548-80c9-b86fc64cc5b7/c97f4ed4-6ff4-4804-96c9-3e14d9231247/Screenshot_2022-11-17_at_07.43.22.png)
+            
+            When we look at the middle elementA[ 5] = 3, we know that the magic index must be on the right side, since `A[mid] < mid` .
+            
+            Why couldn't the magic index be on the left side? Observe that when we move from i to i-1, the value at this index must decrease by at least 1, if not more (since the array is sorted and all the elements are distinct). So, if the middle element is already too small to be a magic index, then when we move to the left, subtracting k indexes and (at least) k values, all subsequent elements will also be too small.
+            
+            We continue to apply this recursive algorithm, developing code that looks very much like binary search.
+            
+            ```java
+            int magicFast(int[] array) {
+            	return magicFast(array, 0, array.length - 1);
+            }
+            
+            int magicFast(int[] array, int start, int end) {
+            	if (end< start) {
+            		return -1;
+             	}
+            	int mid= (start+ end)/ 2;
+            		if (array[mid] == mid) {
+            			return mid;
+            		} else if (array[mid] > mid){
+            			return magicFast(array, start, mid - 1);
+            		} else {
+            			return magicFast(array, mid+ 1, end);
+            		}
+            	}
+            }
+            ```
+            
+- Structures de données
+    - **Exercice 1 - Is unique (Cracking the code interview, anglais)**
+        - Enoncé - Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
+        - Solution - You should first ask your interviewer if the string is an ASCII string or a Unicode string. Asking this question will show an eye for detail and a solid foundation in computer science. We'll assume for simplicity the char­ acter set is ASCII. If this assumption is not valid, we would need to increase the storage size.
+        
+        One solution is to create an array of boolean values, where the flag at index i indicates whether character i in the alphabet is contained in the string. The second time you see this character you can immediately return false.
+        We can also immediately return false if the string length exceeds the number of unique characters in the alphabet. After all, you can't form a string of 280 unique characters out of a 128-character alphabet.
+        The code below implements this algorithm.
+        
+        It's also okay to assume 256 characters. This would be the case in extended ASCII. You should clarify your assumptions with your interviewer.
+        
+        The code below implements this algorithm.
+            
+            ```java
+            boolean isUniqueChars(String str) {
+            	if (str.length() > 128) return false;
+            
+            	boolean[] char_set= new boolean[128];
+            	for (int i= 0; i < str.length(); i++) {
+            		int val= str.charAt(i);
+            		if (char_set[val]) {//Already found this char in string
+            			return false;
+            		}
+            		char_set[val]= true;
+            	}
+            	return true;
+            }
+            ```
+            
+            The time complexity for this code isO(n), where n is the length of the string. The space complexity isO(l). (You could also argue the time complexity is 0(1), since the for loop will never iterate through more than 128 characters.) If you didn't want to assume the character set is fixed, you could express the complexity as O(c)space and O(min(c, n)) or O(c)time, where c is the size of the character set.
+            
+            If we can't use additional data structures, we can do the following:
+            
+            1. Compareeverycharacterofthestringtoeveryothercharacterofthestring.Thiswilltake0(n2)time and 0(1) space.
+            2. If we are allowed to modify the input string, we could sort the string in O(n log(n)) time and then linearly check the string for neighboring characters that are identical. Careful, though: many sorting algorithms take up extra space.
+            These solutions are not as optimal in some respects, but might be better depending on the constraints of the problem.
+    - **Exercice 2 - Check Permutation (Cracking the code interview, anglais)**
+        - Enoncé - Given two strings, write a method to decide if one is a permutation of the other.
+        - Solution - Like in many questions, we should confirm some details with our interviewer. We should understand if the permutation comparison is case sensitive. That is: is God a permutation of dog? Additionally, we should ask if whitespace is significant. We will assume for this problem that the comparison is case sensitive and whitespace is significant. So, "god " is different from "dog".
+        Observe first that strings of different lengths cannot be permutations of each other. There are two easy ways to solve this problem, both of which use this optimization.
+        
+        **Solution #1: Sort the strings.**
+        
+        If two strings are permutations, then we know they have the same characters, but in different orders. There­fore, sorting the strings will put the characters from two permutations in the same order. We just need to compare the sorted versions of the strings.
+            
+            ```java
+            String sort (String, s) {
+            	char[] content= s.toCharArray();
+            	java.util.Arrays.sort(content);
+            	return new String(content);
+            }
+            
+            boolean permutation(String s, String t) {
+            	if (s.length() != t.length()) {
+            		return false;
+            	}
+            	return sort(s).equals(sort(t));
+            }
+            ```
+            
+            Though this algorithm is not as optimal in some senses, it may be preferable in one sense: It's clean, simple and easy to understand. In a practical sense, this may very well be a superior way to implement the problem.
+            However, if efficiency is very important, we can implement it a different way.
+            
+            **Solution #2: Check if the two strings have identical character counts.**
+            
+            We can also use the definition of a permutation-two words with the same character counts-to imple­
+            ment this algorithm. We simply iterate through this code, counting how many times each character appears.
+            Then, afterwards, we compare the two arrays.
+            
+            ```java
+            boolean permutation(String s, String t) {
+            	if (s.length() != t.length()) {
+            		return false;
+            	}
+            
+            	int[] letters = new int[128]; II Assumption
+            
+            	char[] s_array = s.toCharArray();
+            	for (char c : s_array) { II count number of each char in s. letters[c]++;
+            		letters[c]++;
+            	}
+            
+            	for (int i= 0; i < t.length(); i++) { 
+            		int c= (int) t.charAt(i); 
+            		letters[c]--;
+            		if (letters[c] < 0) {
+            			return false;
+            		}
+            		}
+            	return true;
+            }
+            ```
+            
+            Note the assumption on line 6. In your interview, you should always check with your interviewer about the
+            size of the character set. We assumed that the character set was ASCII.
+            
+    - **Exercice 3 - Compression de texte (Exercices Individuels, français)**
+        - Enoncé - Cet exercice traite de la compression. C’est un procédé permettant de représenter une certaine quantité d'information en utilisant et en occupant un espace plus petit qu'originellement.
+        
+        Il existe plusieurs type de compression, dans cet exercice nous nous intéresserons à la compression :
+            - **sans perte**, c'est à dire que le résultat final ne sera pas dégradé par rapport à l'information originelle ;
+            - **par dictionnaire**, c'est à dire que nous gagnerons de la place en remplaçant certaines bribes d'information par une référence plus courte. Nous stockerons cette référence et la bribe associée dans un dictionnaire, afin de nous permettre de reconstruire l'information originelle lors d'une étape de décompression.
+            
+            Nous nous baserons sur le texte d'exemple suivant :
+            
+            ```xml
+            généralement, on utilise un texte en faux latin ( le texte ne veut rien dire, il a été modifié ), le lorem ipsum ou lipsum, qui permet donc de faire office de texte d'attente. l'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré seulement sur l'aspect graphique. ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une occupation normale. la méthode simpliste consistant à copier-coller un court texte plusieurs fois ( « ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte » ) a l'inconvénient de ne pas permettre une juste appréciation typographique du résultat final. il circule des centaines de versions différentes du lorem ipsum, mais ce texte aurait originellement été tiré de l'ouvrage de cicéron, de finibus bonorum et malorum ( liber primus ), texte populaire à cette époque, dont l'une des premières phrases est : « neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... » ( « il n'existe personne qui aime la souffrance pour elle-même, ni qui la recherche ni qui la veuille pour ce qu'elle est... » ). expert en utilisabilité des sites web et des logiciels, jakob nielsen souligne que l'une des limites de l'utilisation du faux-texte dans la conception de sites web est que ce texte n'étant jamais lu, il ne permet pas de vérifier sa lisibilité effective. la lecture à l'écran étant plus difficile, cet aspect est pourtant essentiel. nielsen préconise donc l'utilisation de textes représentatifs plutôt que du lorem ipsum. on peut aussi faire remarquer que les formules conçues avec du faux-texte ont tendance à sous-estimer l'espace nécessaire à une titraille immédiatement intelligible, ce qui oblige les rédactions à formuler ensuite des titres simplificateurs, voire inexacts, pour ne pas dépasser l'espace imparti. contrairement à une idée répandue, le faux-texte ne donne même pas un aperçu réaliste du gris typographique, en particulier dans le cas des textes justifiés : en effet, les mots fictifs employés dans le faux-texte ne faisant évidemment pas partie des dictionnaires des logiciels de pao, les programmes de césure ne peuvent pas effectuer leur travail habituel sur de tels textes. par conséquent, l'interlettrage du faux-texte sera toujours quelque peu supérieur à ce qu'il aurait été avec un texte réel, qui présentera donc un aspect plus sombre et moins lisible que le faux-texte avec lequel le graphiste a effectué ses essais. un vrai texte pose aussi des problèmes de lisibilité spécifiques ( noms propres, numéros de téléphone, retours à la ligne fréquents, composition des citations en italiques, intertitres de plus de deux lignes ... ) qu'on n'observe jamais dans le faux-texte.
+            ```
+            
+            Objectif: créer un code de compression adaptatif au texte compressé :
+            
+            - `A` divise le texte originel en liste de mots,
+            - `D` analyse cette liste de mot pour construire un dictionnaire du nombre d'apparition des mots,
+            - `E` utilise ce dictionnaire pour produire un dictionnaire de références,
+            - `C` remplace certains de ces mots par les références du dictionnaire de références produit par `E`,
+            - `B` récupère la liste de mots et reconstruit un texte compressé complet.
+            1. Créez une fonction `A` (donnez-lui le nom que vous voulez, c'est simplement pour y faire référence dans cet exercice) prenant en paramètre ce texte (ou tout autre chaîne de caractères) et retourne une liste de mots.
+            2. Créez également une fonction `B` prenant en paramètre une liste de mots, et retournant une chaîne de caractère composée de l'ensemble des mots dans l'ordre, séparés par un espace.
+            3. Créez une fonction `C` prenant en paramètre une liste de mots et un dictionnaire. Pour chaque mot dans la liste, si le mot existe dans le dictionnaire en tant que clef, remplacez-le par la valeur associée.
+            4. Comment décompresser le texte?
+            5. Créez une fonction `D` qui prend en paramètre une liste de mots, et retourne un dictionnaire dont les clefs sont les mots du texte, et les valeurs leur nombre d'apparition.
+            6. Créer une fonction `E` qui prend en paramètre un dictionnaire de nombre d'apparition des mots, et qui retourne un dictionnaire de référence.
+        - Solution -
+            
+            ```python
+            #!/usr/bin/env python3
+            # -*- coding: utf-8 -*-
+            
+            from typing import List, Dict, Tuple
+            
+            TEXT = """généralement, on utilise un texte en faux latin ( le texte ne veut rien dire, il a été modifié ), le lorem ipsum ou lipsum, qui permet donc de faire office de texte d'attente. l'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré seulement sur l'aspect graphique. ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une occupation normale. la méthode simpliste consistant à copier-coller un court texte plusieurs fois ( « ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte » ) a l'inconvénient de ne pas permettre une juste appréciation typographique du résultat final. il circule des centaines de versions différentes du lorem ipsum, mais ce texte aurait originellement été tiré de l'ouvrage de cicéron, de finibus bonorum et malorum ( liber primus ), texte populaire à cette époque, dont l'une des premières phrases est : « neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... » ( « il n'existe personne qui aime la souffrance pour elle-même, ni qui la recherche ni qui la veuille pour ce qu'elle est... » ). expert en utilisabilité des sites web et des logiciels, jakob nielsen souligne que l'une des limites de l'utilisation du faux-texte dans la conception de sites web est que ce texte n'étant jamais lu, il ne permet pas de vérifier sa lisibilité effective. la lecture à l'écran étant plus difficile, cet aspect est pourtant essentiel. nielsen préconise donc l'utilisation de textes représentatifs plutôt que du lorem ipsum. on peut aussi faire remarquer que les formules conçues avec du faux-texte ont tendance à sous-estimer l'espace nécessaire à une titraille immédiatement intelligible, ce qui oblige les rédactions à formuler ensuite des titres simplificateurs, voire inexacts, pour ne pas dépasser l'espace imparti. contrairement à une idée répandue, le faux-texte ne donne même pas un aperçu réaliste du gris typographique, en particulier dans le cas des textes justifiés : en effet, les mots fictifs employés dans le faux-texte ne faisant évidemment pas partie des dictionnaires des logiciels de pao, les programmes de césure ne peuvent pas effectuer leur travail habituel sur de tels textes. par conséquent, l'interlettrage du faux-texte sera toujours quelque peu supérieur à ce qu'il aurait été avec un texte réel, qui présentera donc un aspect plus sombre et moins lisible que le faux-texte avec lequel le graphiste a effectué ses essais. un vrai texte pose aussi des problèmes de lisibilité spécifiques ( noms propres, numéros de téléphone, retours à la ligne fréquents, composition des citations en italiques, intertitres de plus de deux lignes ... ) qu'on n'observe jamais dans le faux-texte."""
+            
+            print('Taille du texte non compressé: {} caractères'.format(len(TEXT)))
+            
+            #-- Step 1 --#
+            
+            def A(text: str) -> List[str]:
+                return text.split()
+            
+            def B(words: List[str]) -> str:
+                return ' '.join(words)
+            
+            assert B(A(TEXT)) == TEXT
+            
+            #-- Step 2 --#
+            
+            COMPRESSION_DICT = {
+                'texte': '1',
+                'lorem': '2',
+                'qui': '3',
+                'donc': '4',
+                'est': '5',
+                'que': '6',
+                'pour': '7',
+                'ceci': '8',
+                'faux-texte': '9',
+                'dans': '10',
+                'plus': '11',
+                'avec': '12'
+            }
+            
+            def C(words: List[str], compression_dict: Dict[str, str]) -> List[str]:
+                result = []
+                for word in words:
+                    if word in compression_dict:
+                        result.append(compression_dict[word])
+                    else:
+                        result.append(word)
+                return result
+            
+            test_list = ['voiture', 'texte', 'faux-texte', 'dans', 'journal', 'lorem']
+            expected_list = ['voiture', '1', '9', '10', 'journal', '2']
+            
+            assert C(test_list, COMPRESSION_DICT) == expected_list
+            
+            COMPRESSED_TEXT = B(C(A(TEXT), COMPRESSION_DICT))
+            print('Première compression ({} caractères): \n---\n{}\n---' \
+                  .format(len(COMPRESSED_TEXT), COMPRESSED_TEXT))
+            
+            #-- Step 3 --#
+            
+            # Cette syntaxe assez spécifique à Python s'appelle une 'dictionnary comprehension"
+            # les listes et autres itérables (comme les tuples) permettent des approches
+            # similaires qui permet de se passer élégamment de boucle for
+            REVERSE_DICT = { v: k for (k, v) in COMPRESSION_DICT.items() }
+            
+            assert B(C(A(COMPRESSED_TEXT), REVERSE_DICT)) == TEXT
+            
+            #-- Step 4 --#
+            
+            def D(words: List[str]) -> Dict[str, int]:
+                result = {}
+                for word in words:
+                    if word in result:
+                        result[word] += 1
+                    else:
+                        result[word] = 1
+                return result
+            
+            assert D(['ceci', 'est', 'un', 'faux-texte', 'ceci', 'est']) == \
+                {'ceci': 2, 'est': 2, 'un': 1, 'faux-texte': 1}
+            
+            def E(word_occurences: Dict[str, int],
+                  min_size: int = 3,
+                  min_occurence: int = 2) -> Dict[str, str]:
+                result = {}
+                substitution = 1
+                for (word, occurence) in word_occurences.items():
+                    if not len(word) >= min_size:
+                        continue
+                    if not occurence >= min_occurence:
+                        continue
+                    result[word] = str(substitution)
+                    substitution += 1
+                return result
+            
+            assert E({'avec': 3, 'tous': 1, 'un': 23, 'nuit': 10}) == \
+                {'avec': '1', 'nuit': '2'}
+            
+            NEW_COMPRESSION_DICT = E(D(A(TEXT)))
+            print('\nNouveau dictionnaire de substitution (taille min: 3, occurence min: ' \
+                  '2): \n---\n{}\n---'.format(NEW_COMPRESSION_DICT))
+            
+            NEW_COMPRESSED_TEXT = B(C(A(TEXT), NEW_COMPRESSION_DICT))
+            print('Seconde compression ({} caractères): \n---\n{}\n---' \
+                  .format(len(NEW_COMPRESSED_TEXT), NEW_COMPRESSED_TEXT))
+            
+            def generate_best_compression() -> Tuple[str, Dict[str, str], int, int]:
+                print('\nGénération de dictionnaires de substitution et calcul de ' \
+                      'compression optimal (taille du dictionnaire comprise)')
+                best = None
+                # on fait varier la taille minimale des mots ainsi que
+                # le nombre d'occurence entre 1 et 6
+                for size in range(1, 6):
+                    for occurence in range(1, 6):
+                        # on calcule le dictionnaire de substitution selon les contraintes
+                        compression_dict = E(D(A(TEXT)), min_size=size, min_occurence=occurence)
+                        # on compresse le texte
+                        text = B(C(A(TEXT), compression_dict))
+            
+                        # chaîne de caractère pré-remplie pour faire les prints plus loin
+                        new_best_text = ' -> Nouveau meilleur résultat trouvé avec mot de ' \
+                            'taille minimale {} et nombre d\'occurence minimale {}: {} ' \
+                            'caractères (texte {} caractères + dictionnaire {} caractères)'
+            
+                        # premier passage: 'best' est vide, on le remplit avec ce qui nous
+                        # passe sous la main
+                        if best is None:
+                            best = (text, compression_dict, size, occurence)
+                            print(new_best_text.format(size,
+                                                       occurence,
+                                                       len(text + str(compression_dict)),
+                                                       len(text),
+                                                       len(str(compression_dict))))
+                        # dans les autres cas on vérifie, et on update 'best'
+                        # si on trouve mieux
+                        else:
+                            # jusqu'à maitenant on n'a considéré que la taille du texte
+                            # compressé mais un système de compression va également
+                            # considéré la taille du dictionnaire de substitution,
+                            # puisqu'il est nécessaire pour décompresser le texte (et devra
+                            # donc être envoyé avec le texte).
+                            # Il faut donc également compter la taille du dictionnaire
+                            # lorsqu'on recherche un optimum
+                            if len(text + str(compression_dict)) < len(best[0] + str(best[1])):
+                                best = (text, compression_dict, size, occurence)
+                                print(new_best_text.format(size,
+                                                           occurence,
+                                                           len(text + str(compression_dict)),
+                                                           len(text),
+                                                           len(str(compression_dict))))
+                return best
+            
+            BEST = generate_best_compression()
+            
+            print('\n'+'-'*30)
+            print('Meilleur rapport trouvé: remplacer les mots de taille >= à {} apparaissant au moins {} fois dans le texte'.format(BEST[2], BEST[3]))
+            print('Dictionnaire utilisé: \n---\n{}\n---'.format(BEST[1]))
+            print('Meilleure compression ({} caractères): \n---\n{}\n---'.format(len(BEST[0]), BEST[0]))
+            ```
+            
+- Programmation orientée objet
+    - **Exercice 1 - Call Center (Cracking the code interview, anglais)**
+        - Enoncé - Imagine you have a call center with three levels of employees: respondent, manager, and director. An incoming telephone call must be first allocated to a respondent who is free. If the respondent can't handle the call, he or she must escalate the call to a manager. If the manager is not free or not able to handle it, then the call should be escalated to a director. Design the classes and data structures for this problem. Implement a method dispatchCall() which assigns a call to the first available employee.
+        - Hint - Before coding, make a list of the objects you need and walk through the common algo­ rithms. Picture the code. Do you have everything you need?
+        - Solution - All three ranks of employees have different work to be done, so those specific functions are profile specific. We should keep these things within their respective class.
+        Here are a few things which are common to them, like address, name, job title, and age. These things can be kept in one class and can be extended or inherited by others.
+        Finally, there should be one `CallHandler` class which would route the calls to the correct person.
+        Note that on any object-oriented design question, there are many ways to design the objects. Discuss the trade-offs of different solutions with your interviewer. You should usually design for long-term code flexibility and maintenance.
+        We'll go through each of the classes below in detail.
+        `CallHandler` represents the body of the program, and all calls are funneled first through it.
+        
+        ```java
+        public class CallHandler {
+        	/* 3 levels of employees: respondents, managers, directors. */
+        	private final int LEVELS= 3;
+        
+        	/* Initialize 10 respondents, 4 managers, and 2 directors. */
+        	private final int NUM_RESPONDENTS = 10;
+        	private final int NUM_MANAGERS = 4;
+        	private final int NUM_DIRECTORS= 2;
+        
+        	/* List of employees, by level.
+        	* employeeLevels[0] = respondents
+        	* employeeLevels[l] = managers
+        	* employeeLevels[2] = directors
+        	*/
+        	List<List<Employee>> employeeLevels;
+        	/* queues for each call's rank */
+        	List<List<Call>> callQueues;
+        
+        	public CallHandler() { ... }
+        
+        	/* Gets the first available employee who can handle this call.*/
+        	public Employee getHandlerForCall(Call call) { ... }
+        
+        	/* Routes the call to an available employee, or saves in a queue if no employee
+        	* is available. */
+        	public void dispatchCall(Caller caller) {
+        		Call call= new Call(caller); 
+        		dispatchCall(call);
+        	}
+        
+        	/* Routes the call to an available employee, or saves in a queue if no employee
+        	* is available. */
+        	public void dispatchCall(Call call) {
+        	/* Try to route the call to an employee with minimal rank. */
+        		Employee emp= getHandlerForCall(call);
+        			if (emp != null) {
+        				emp.receiveCall(call);
+        				call.setHandler(emp);
+        			} else {
+        				/* Place the call into corresponding call queue according to its rank. */
+        				call.reply("Please wait for free employee to reply");
+        				callQueues.get(call.getRank().getValue()).add(call);
+        			}
+        		}
+        	/* An employee got free. Look for a waiting call that employee can serve. Return
+        	*true if we assigned a call, false otherwise.*/
+        	public boolean assignCall(Employee emp) {... }
+        }
+        ```
+        
+        `Call` represents a call from a user. A call has a minimum rank and is assigned to the first employee who can handle it.
+        
+        ```java
+        public class Call {
+        	/* Minimal rank of employee who can handle this call.*/
+        	private Rank rank;
+        
+        	/*Person who is calling.*/
+        	private Caller caller;
+        
+        	/*Employee who is handling call.*/
+        	private Employee handler;
+        
+        	public Call(Caller c) {
+        		rank = Rank.Responder;
+        		caller = c;
+        	}
+        
+        	/*Set employee who is handling call.*/
+        	public void setHandler(Employee e) {handler
+        
+        	public void reply(String message) {... }
+        	public Rank getRank() {return rank;}
+        	public void setRank(Rank r) {rank = r; }
+        	public Rank incrementRank() {... }
+        	public void disconnect() { ... }
+        }
+        ```
+        
+        `Employee` is a super class for the Director, Manager, and Respondent classes. It is implemented as an abstract class since there should be no reason to instantiate an Employee type directly.
+        
+        ```java
+        abstract class Employee {
+        	private Call currentCall = null;
+        	protected Rank rank;
+        
+        	public Employee(CallHandler handler) {...}
+        
+        	/*Start the conversation*/
+        	public void receiveCall(Call call) { ... }
+        
+        	/*the issue is resolved, finish the call*/
+        	public void callCompleted() { ... }
+        
+        	/* The issue has not been resolved. Escalate the call, and assign a new call to
+        	*the employee.*/
+        	public void escalateAndReassign() { }
+        
+        	/* Assign a new call to an employee, if the employee is free.*/
+        	public boolean assignNewCall() { ... }
+        
+        	/*Returns whether or not the employee is free.*/
+        	public boolean isFree() { return currentCall == null; }
+        
+        	public Rank getRank() { return rank;}
+        }
+        ```
+        
+        The `Respondent`, `Director`, and `Manager` classes are now just simple extensions of the Employee class.
+        
+        ```java
+        class Director extends Employee {
+        	public Director() {
+        		rank= Rank.Director;
+        	}
+        }
+        
+        class Manager extends Employee {
+        	public Manager() {
+        		rank = Rank.Manager;
+        	}
+        }
+        
+        class Respondent extends Employee { 
+        	public Respondent() {
+        		rank = Rank.Responder;
+        	}
+        }
+        ```
+        
+        This is just one way of designing this problem. Note that there are many other ways that are equally good.
+        This may seem like an awful lot of code to write in an interview, and it is. We've been much more thorough here than you would need. In a real interview, you would likely be much lighter on some of the details until you have time to fill them in.
+        
+
+# 5. Ressources
+
+## 5.1. Vidéos et podcasts de préparation aux entretiens
+
+- https://www.youtube.com/watch?v=XKu_SEDAykw
+- https://ifttd.io/recrutement-et-tests-techniques/
+- https://drive.google.com/file/d/169g9yoEaqvRfu96NUcs5qjKDGeeAzA8m/view
+
+## 5.2. Banque de questions posées en entretien
+
+- **Liste de questions**
+    - Front-end & dev web
+        - Qu’est ce que le package.json ?
+        - Que signifie le terme AJAX ?
+        - Qu’est ce que React ?
+        - Expliquer useEffect & useState.
+        - Expliquer le cycle de vie d’un composant React.
+        - Qu’est ce que le local storage ?
+        - Que signifie SSR ? CSR ?
+        - Qu’est ce que le protocole HTTP ?
+        - Qu’est ce que le certificat SSL ?
+    - Back-end
+        - Expliquer ce qu’est une API ?
+        - Que signifie REST ?
+        - Qu’est ce que signifie CRUD et expliquer ?
+        - Définir DOM ?
+        - Que signifie npm ?
+    - Database
+        - Donnez la définition d’une base de données ?
+        - Qu’est ce qu’une cardinalité en BDD ?
+        - Qu’est ce qu’une foreign key ?
+    - Security
+        - Quelle est la différence entre le chiffrement et le hachage ?
+    - General
+        - A quoi sert une maquette et pourquoi est ce important pour le client ?
+        - Qu’est ce que les méthodes agiles ?
+        - En quoi le SEO est-il important ?
+- **Questions Efficy [EN]**
+    
+    [Web dev. Technical interview - Efficy.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/4812e1fe-575f-4548-80c9-b86fc64cc5b7/f1099dcf-cf10-4922-affd-4760c5af0a72/Web_dev._Technical_interview_-_Efficy.pdf)
+    
+    - Front-end web development
+        - How would you describe a module in the JavaScript world?
+        - What do you know about Sass, Scss or Less?
+        - What JavaScript Array methods do you know or use frequently?
+        - What can you do with the browsers built in Fetch API?
+        - What is a JavaScript Promise?
+        - How can you write in a sequential way with Promises?
+        - When would you use an Object literal and when would you work with a Class?
+    - Security
+        - What is XSS and how to prevent it as a developer?
+        - What is the difference between encryption and hashing?
+        - What is a salted hash and what kind of attacks does it prevent?
+        - Explain the same-origin policy with regards to JavaScript.
+        - How do applications prevent SQL injection attacks?
+    - Database
+        - What are the two commands to remove (all) rows from a table? Are there any implications with the specific commands?
+        - What is an SQL database view?
+        - What’s the difference between a SQL Procedure and a Function?
+        - A query is running slow, how would you handle the optimization?
+        - Do you know what a SQL Server CTE is?
+    - General
+        - Beside clean code (respect of naming conventions), what makes “good code” for you?
+        - What Version Control tools do you know and have you used?
+        - What terms or vocabulary (e.g. commit, push) do you know from Version Control
+        systems and how do you simply describe them?
+        - You committed a hardcode secret by accident to your version control system, how do you handle this situation?
+        - What’s the difference between an agile and waterfall project management approach?

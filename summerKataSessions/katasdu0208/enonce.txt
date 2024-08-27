@@ -1,0 +1,103 @@
+// - ** Exercice 1 - Tri(Exercices Individuels, français) **
+// //     - Enoncé - Pourquoi est ce qu’on parle de tri ? Ici on ne vous parle
+// pas de trier vos déchets(même si c’est important aussi!), on vous parle de
+// trier des données car c’est un véritable outil pour gagner en efficacité
+//  dans l’exécution de votre code.En effet, parcourir des données ordonnées,
+//   sans doublons peut vous éviter un bon nombre de tours de boucles!
+// // L’objectif de cet exercice individuel est de vous faire découvrir le
+//  monde du tri algorithmique ♻️ !
+// //     Il existe énormément de façons de trier des données, que ce soit
+//  des chiffres, des caractères ou d’autres types.
+// // Pour tester vos tris, voici 4 suites de données:
+// // - Cas A: Petites données random
+
+// //     `[8, -2, 2, 1, 0, 9, 6]`
+
+//     - Cas B: Petites données ordonnées
+
+//         `[8, -2, 0, 1, 2, 6, 9]`
+
+//         - Cas C: Grandes données random
+
+//             `[429,74,311,420,212,102,293,487,10,410,395,308,347,130,407,120,122,378,251,458,278,388,326,65,163,231,299,432,48,364,286,181,456,126,271,75,249,78,25,196,81,304,373,7,147,284,216,116,110,164,19,54,70,5,4,259,267,117,489,90,390,442,439,414,151,68,194,156,455,255,18,385,123,157,56,37,419,368,27,468,58,387,335,350,462,15,67,258,322,62,412,29,401,319,158,246,449,128,55,170,314,93,265,300,185,173,343,225,433,411,182,297,204,79,105,352,313,189,478,312,399,497,193,101,203,176,83,192,285,413,274,302,190,188,318,345,49,179,217,139,209,8,333,107,20,66,207,195,281,288,23,261,167,440,341,35,150,415,169,162,206,287,337,400,328,375,144,406,363,237,485,236,262,316,100,392,340,103,447,127,366,423,202,53,381,129,277,353,60,435,135,124,148,438,256,146,47,26,240,226,220,242,197,132,111,403,424,199,16,243,493,428,372,235,40,77,89,405,72,114,149,365,113,228,280,386,362,471,168,434,268,477,396,219,248,417,97,264,131,377,376,92,422,466,479,346,213,11,494,245,140,342,221,119,481,354,143,28,59,63,32,153,499,254,34,361,301,210,445,165,137,13,486,200,244,233,416,315,279,339,208,215,446,463,76,426,252,296,380,184,298,371,142,332,283,329,232,80,152,44,273,310,46,389,223,382,334,484,496,57,134,125,229,172,250,14,266,118,171,96,99,39,22,290,6,159,480,136,393,87,160,52,84,437,218,421,323,12,230,238,257,359,331,263,294,276,465,383,305,370,166,483,178,198,384,82,430,50,38,357,145,108,95,21,309,397,247,470,459,295,24,444,306,452,404,448,86,402,472,253,454,282,492,441,474,205,418,73,41,2,348,358,476,241,469,317,71,227,106,260,211,398,69,338,330,460,457,133,222,191,355,3,495,36,269,270,473,94,461,425,161,498,30,183,239,303,1,31,138,224,121,272,174,344,45,51,9,475,325,491,327,17,488,324,289,88,104,64,367,43,321,356,349,467,379,369,234,443,187,436,112,307,482,490,175,109,275,154,453,91,98,464,180,451,320,186,360,141,450,351,431,409,291,394,155,336,500,177,374,85,214,391,115,42,427,33,61,292,201,408]`
+
+//             - Cas D: Grandes données ordonnées
+// 1. Écrivez l’algorithme de tri à bulle en pseudo code sur un editeur 
+de code, de texte ou même une feuille de papier 😉.
+// 2. Continuons avec un autre des plus connu, le quick sort.
+Développez l’algorithme, ici aussi en pseudo code.
+//     3. Calculez combien d’étapes sont nécessaires pour faire le tri 
+avec chacun ces deux algos ? 
+Trouvez d’autres critères pour comparer les 2 algos.
+//     4. Quel est le tri le plus efficace pour les données A, B, C et D ?
+
+============================================================
+
+
+- **Exercice 1 - Is unique (Cracking the code interview, anglais)**
+        - Enoncé - Implement an algorithm to determine if a string has all unique characters.
+         What if you cannot use additional data structures?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        - Solution - You should first ask your interviewer if the string is an ASCII string or a Unicode string. Asking this question will show an eye for detail and a solid foundation in computer science. We'll assume for simplicity the char­ acter set is ASCII. If this assumption is not valid, we would need to increase the storage size.
+        
+        One solution is to create an array of boolean values, where the flag at index i indicates whether character i in the alphabet is contained in the string. The second time you see this character you can immediately return false.
+        We can also immediately return false if the string length exceeds the number of unique characters in the alphabet. After all, you can't form a string of 280 unique characters out of a 128-character alphabet.
+        The code below implements this algorithm.
+        
+        It's also okay to assume 256 characters. This would be the case in extended ASCII. You should clarify your assumptions with your interviewer.
+        
+        The code below implements this algorithm.
+            
+            ```java
+            boolean isUniqueChars(String str) {
+            	if (str.length() > 128) return false;
+            
+            	boolean[] char_set= new boolean[128];
+            	for (int i= 0; i < str.length(); i++) {
+            		int val= str.charAt(i);
+            		if (char_set[val]) {//Already found this char in string
+            			return false;
+            		}
+            		char_set[val]= true;
+            	}
+            	return true;
+            }
+            ```
+            
+            The time complexity for this code isO(n), where n is the length of the string. The space complexity isO(l). (You could also argue the time complexity is 0(1), since the for loop will never iterate through more than 128 characters.) If you didn't want to assume the character set is fixed, you could express the complexity as O(c)space and O(min(c, n)) or O(c)time, where c is the size of the character set.
+            
+            If we can't use additional data structures, we can do the following:
+            
+            1. Compareeverycharacterofthestringtoeveryothercharacterofthestring.Thiswilltake0(n2)time and 0(1) space.
+            2. If we are allowed to modify the input string, we could sort the string in O(n log(n)) time and then linearly check the string for neighboring characters that are identical. Careful, though: many sorting algorithms take up extra space.
+            These solutions are not as optimal in some respects, but might be better depending on the constraints of the problem.
+    - **Exercice 2 - Check Permutation (Cracking the code interview, anglais)**
+        - Enoncé - Given two strings, write a method to decide if one is a permutation of the other.
+        - Solution - Like in many questions, we should confirm some details with our interviewer. We should understand if the permutation comparison is case sensitive. That is: is God a permutation of dog? Additionally, we should ask if whitespace is significant. We will assume for this problem that the comparison is case sensitive and whitespace is significant. So, "god " is different from "dog".
+        Observe first that strings of different lengths cannot be permutations of each other. There are two easy ways to solve this problem, both of which use this optimization.
+        
